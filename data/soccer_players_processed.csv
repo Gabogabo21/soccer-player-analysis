@@ -1,0 +1,41 @@
+Es un dataset tabular con 500 jugadores sintéticos. Cada fila representa un jugador, y cada columna una característica.
+
+Columnas incluidas:
+
+player_name → nombre ficticio del jugador (ej: Player_0, Player_1, …)
+
+overall_rating → valoración general del jugador (60–95)
+
+potential → potencial máximo (65–95)
+
+height_cm → altura en centímetros (165–200 cm)
+
+weight_kg → peso en kilogramos (65–90 kg)
+
+preferred_foot → pie preferido (Left o Right)
+
+age → edad del jugador (18–38 años)
+
+crossing → habilidad de centros (40–95)
+
+finishing → definición (40–95)
+
+heading_accuracy → precisión de cabezazo (40–95)
+
+short_passing → pases cortos (40–95)
+
+dribbling → regate (40–95)
+
+ball_control → control del balón (40–95)
+
+acceleration → aceleración (40–95)
+
+sprint_speed → velocidad máxima (40–95)
+
+stamina → resistencia física (40–95)
+
+strength → fuerza física (40–95)
+
+preferred_foot_encoded → versión codificada del pie (0 = Left, 1 = Right)
+
+age_group → grupo de edad categorizado (18-22, 23-26, 27-30, 31-35, 36-40)

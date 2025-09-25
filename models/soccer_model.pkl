@@ -1,0 +1,21 @@
+import joblib
+import pandas as pd
+
+# Cargar modelo
+model = joblib.load("models/soccer_model.pkl")
+
+# Crear ejemplo de jugador
+player_data = pd.DataFrame([{
+    "height_cm": 180,
+    "weight_kg": 75,
+    "age": 24,
+    "potential": 90,
+    "dribbling": 88,
+    "ball_control": 85,
+    "acceleration": 92,
+    "preferred_foot_encoded": 1  # 1 = Right
+}])
+
+# Predecir rating
+prediction = model.predict(player_data)[0]
+print("Rating predicho:", round(prediction, 1))
